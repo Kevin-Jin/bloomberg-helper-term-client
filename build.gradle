@@ -23,6 +23,8 @@ dependencies {
     //compile "com.sun.jersey.contribs:jersey-apache-client:+"
 
     compile "org.apache.httpcomponents:httpclient:+"
+    compile "commons-codec:commons-codec:+"
+    compile "org.apache.james:apache-mime4j:+"
 }
 
 test {
